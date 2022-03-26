@@ -1,0 +1,153 @@
+
+  /*
+  HEADER
+  */
+
+.header {
+  height: 70px;
+  width: 100%;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 14px;
+  padding-bottom: 12px;
+}
+
+.header-logo {
+  width: 93px;
+  height: 27px;
+  padding-top: 1px;
+  margin-left: 11px;
+}
+
+.header-mark{
+  min-width: 13px;
+  min-height: 19px;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  margin-left: 21px;
+}
+
+.location {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-style: normal;
+  line-height: 16px;
+  width: 112px;
+  margin-right: 483px;
+  padding-top: 2px;
+  padding-left: 2px;
+  font-size: 14px;
+}
+
+.street {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-style: normal;
+  min-width: 99px;
+  font-size: 14px;
+  color: #868686;
+}
+
+.header-call {
+  padding-top: 2px;
+  min-width: 28px;
+  min-height: 28px;
+}
+
+.number {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 1px;
+  padding-left: 6px;
+  height: 24px;
+  width: 145px;
+  color: #364844;
+}
+
+.form {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-style: normal;
+  text-align: center;
+  padding-top: 13px;
+  margin-left: 35px;
+  font-size: 14px;
+  min-width: 196px;
+  height: 43px;
+  color: #ffffff;
+  background: #0DBC91;
+  border-radius: 50px;
+}
+
+@media (max-width: 1199px){
+  .header {
+    width: 100%;
+    height: 65px;
+    background: #F7F7F7;
+  }
+
+  .header-row {
+    position: relative;
+    width: 100%;
+    flex-flow: wrap;
+    height: 65px;
+  }
+
+  .header-logo {
+    position: absolute;
+    width: 62px;
+    height: 18px;
+    order: 1;
+    top: 22px;
+    left: 78px;
+    margin: 0;
+  }
+  
+  .number{
+    position: absolute;
+    top: 14px;
+    right: 0;
+    font-weight: bold;
+    font-size: 16px;
+    width: 138px;
+    order: 2;
+    padding: 0;
+    bottom: 6px;
+  }
+
+  .location {
+    position: relative;
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: 500;
+    width: 102px;
+    height: 24px;
+    top: 12px;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    order: 3;
+  }
+
+  .header-mark{
+    display: none;
+  }
+
+  .street{
+    display: none;
+  }
+
+  .header-call {
+    display: none;
+  }
+
+  .form {
+    display: none;
+  }
+}
+
+

@@ -1,0 +1,41 @@
+.footer {
+  position: relative;
+  top: 98px;
+  background-color: #08664F;
+  padding-top: 56px;
+  padding-bottom: 58px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  padding-left: 12px;
+}
+
+.footer-nav{
+  list-style: none;
+  display: flex;
+  padding-top: 6px;
+  padding-left: 40px;
+  color: #fff;
+}
+
+.footer-nav ul{
+  display: flex;
+}
+
+.footer-nav li:not(:last-child){
+    margin-right: 30px;
+}
+
+.footer-logo-messeger img:not(:last-child){
+  padding-right: 10px;
+}
+
+@media (max-width: 1199px) {
+  .footer {
+    display: none;
+  }
+}

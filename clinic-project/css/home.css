@@ -1,0 +1,90 @@
+.home {
+  position: relative;
+  height: 533px;
+  background: #F8FBFA;
+}
+
+.home-content {
+  height: 533px;
+  padding-top: 145px;
+  padding-bottom: 162px;
+}
+
+.home-heading {
+  position: absolute;
+  padding-left: 10px;
+  width: 360px;
+  font-family: 'PT Sans Caption Bold', sans-serif;
+  color: #364844;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+}
+
+.home-text {
+  position: absolute;
+  width: 368px;
+  padding-left: 10px;
+  padding-top: 154px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-style: normal;
+  color: #364844;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.home-bg-img {
+  position: absolute;
+  width: 950px;
+  height: 533px;
+  margin-left: 590px;
+  top:0;
+}
+
+@media (max-width: 1199px){
+  .home{
+    height: 602px;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .home-content {
+    position: absolute;
+    height: 288px;
+    width: 100%;
+    padding: 0;
+    left: 0;
+    background-image: url(/img/home/mobile-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+  }
+
+  .home-heading {
+    top: 324px;
+    padding-left: 18px;
+    width: 267px;
+    height: 102px;
+    font-family: 'PT Sans Caption Bold', sans-serif;
+    color: #364844;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33.64px;
+  }
+
+  .home-text {
+  padding-left: 18px;
+  font-family: 'PT Sans Caption';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #364844;
+  width: 340px;
+  height: 96px;
+  top: 280px;
+  }
+
+  .home-bg-img{
+    display: none;
+  }
+}
